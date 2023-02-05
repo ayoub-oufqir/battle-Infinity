@@ -1,10 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import NavBar from "./components/Navbar";
+import AboutSection from "./components/AboutSection";
+import ProductsSection from "./components/ProductsSection";
+import SwapSection from "./components/SwapSection";
+import PremierLeagueSection from "./components/PremierLeagueSection";
+import BattleGamesSection from "./components/BattleGamesSection";
+import IbatSection from "./components/IbatSection";
+import WhyIbatSection from "./components/WhyIbatSection";
+import TeamSection from "./components/TeamSection";
+import Footer from "./components/Footer";
+import TokenomicsSection from "./components/TokenomicsSection";
+import PressNewsSection from "./components/PressNewsSection";
+import GetInTouchSection from "./components/GetInTouchSection";
+import SponsorsSection from "./components/SponsorsSection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className=" text-center border-slate-500 border-4">
+      <NavBar />
+      <div className=" bg-slate-800 text-white">
+        <AboutSection />
+        <ProductsSection />
+        <SwapSection />
+        <PremierLeagueSection />
+        <BattleGamesSection />
+        <IbatSection />
+        <WhyIbatSection />
+        <TokenomicsSection />
+        <PressNewsSection />
+        <TeamSection />
+        <SponsorsSection />
+        <GetInTouchSection />
+      </div>
+      <Footer />
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +47,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

@@ -1,0 +1,3 @@
+add container div with this code: bg-slate-800 text-white  
+create a unique class for each section
+update images ALT text
