@@ -15,8 +15,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    //"build:css": "postcss src/styles/styles.css -o src/index.css",
-    //"watch:css": "postcss -w src/styles/styles.css -o src/index.css",
     "build": "react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
