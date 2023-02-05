@@ -4,7 +4,7 @@ import telegramImgPng from '../assets/images/telegram-dark-icon.svg'
 const BattleGamesSection = () => {
     return ( 
         <section className="">
-      <div className="about-sec-content flex flex-wrap flex-col sm:flex-row items-center justify-center text-left">
+      <div className="about-sec-content flex flex-wrap flex-col-reverse sm:flex-row items-center justify-center text-left">
       <div className="md:w-3/6 w-11/12">
           <img
             src={battleGames}

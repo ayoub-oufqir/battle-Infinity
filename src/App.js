@@ -16,7 +16,7 @@ import SponsorsSection from "./components/SponsorsSection";
 
 function App() {
   return (
-    <div className=" text-center border-slate-500 border-4">
+    <div className=" text-center ">
       <NavBar />
       <div className=" bg-slate-800 text-white">
         <AboutSection />

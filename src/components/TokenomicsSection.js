@@ -35,8 +35,8 @@ const TokenomicsSection = () => {
           <p className="text-2xl text-blue-200">Utility Token</p>
         </div>
       </div>
-      <div>
-        <p className="text-xl mt-16 text-blue-300">
+      <div className="p-6">
+        <p className="text-xl mt-8 md:mt-16 text-blue-300">
           The total maximum supply of IBAT tokens is 10,000,000,000 (10
           Billion). 
           <br />
@@ -44,10 +44,10 @@ const TokenomicsSection = () => {
           and run on the Binance Smart Chain.
         </p>
         <div className="flex justify-center items-center mt-14">
-          <button className="text-xl font-bold bg-btnBlue-50 py-4 px-5 rounded-sm border-blue-400 border-2 mr-4">
+          <button className="text-xl font-bold bg-btnBlue-50 lg:py-4 lg:px-5 py-2 px-3 rounded-sm border-blue-400 border-2 mr-4">
             Buy $IBAT Now
           </button>
-          <button className="text-xl font-bold  py-4 px-5 rounded-sm  mr-4 flex items-center justify-center gap-3">
+          <button className="text-xl font-bold  lg:py-4 lg:px-5 py-2 px-3 rounded-sm  mr-4 flex items-center justify-center gap-3">
             <span>➜</span>
             JOIN TELEGRAM
             <img src={telegramImgPng} alt="telegram-dark-icon" />

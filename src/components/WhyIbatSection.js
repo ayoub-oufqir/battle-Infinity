@@ -12,30 +12,30 @@ const WhyIbatSection = () => {
         <h2 className="font-bold text-4xl mb-14">WHY $IBAT?</h2>
       </div>
       <div className=" grid md:grid-cols-2 grid-flow-row gap-10 text-left text-blue-200">
-        <div className="flex items-center gap-6">
+        <div className="flex flex-col lg:flex-row items-center gap-6">
           <img src={SafeAndSecure} alt="Safe And Secure" />
-          <p className="text-2xl">Safe AND secure</p>
+          <p className="text-lg md:text-2xl text-center md:text-left">Safe AND secure</p>
         </div>
-        <div className="flex items-center gap-6">
-          <img src={transactionFees} alt="Safe And Secure" />
-          <p className="text-2xl">
+        <div className="flex flex-col lg:flex-row items-center gap-6">
+          <img src={transactionFees} alt="transaction Fees" />
+          <p className="text-lg md:text-2xl text-center md:text-left">
             50% transaction fees allocated to the global staking pool
           </p>
         </div>
-        <div className="flex items-center gap-6">
-          <img src={StrongFanBase} alt="Safe And Secure" />
-          <p className="text-2xl">
+        <div className="flex flex-col lg:flex-row items-center gap-6">
+          <img src={StrongFanBase} alt="Strong Fan Base" />
+          <p className="text-lg md:text-2xl text-center md:text-left">
             Strong fan base established on multiple social media platforms
             contributing to IBAT’s continuous growth
           </p>
         </div>
-        <div className="flex items-center gap-6">
-          <img src={extraBenefitsIconNew} alt="Safe And Secure" />
-          <p className="text-2xl">Extra benefits for stakers</p>
+        <div className="flex flex-col lg:flex-row items-center gap-6">
+          <img src={extraBenefitsIconNew} alt="extra Benefits Icon New" />
+          <p className="text-lg md:text-2xl text-center md:text-left">Extra benefits for stakers</p>
         </div>
-        <div className="flex items-center gap-6">
-          <img src={Accelerates} alt="Safe And Secure" />
-          <p className="text-2xl">
+        <div className="flex flex-col lg:flex-row items-center gap-6">
+          <img src={Accelerates} alt="Accelerates" />
+          <p className="text-lg md:text-2xl text-center md:text-left">
             Accelerates the development and adoption of the ecosystem
           </p>
         </div>

@@ -15,7 +15,7 @@ const SponsorsSection = () => {
         </h2>
         <hr className="sec-title-hr" />
       </div>
-      <div className='flex flex-col md:flex-row items-center justify-center md:gap-10 gap-4 mx-auto'>
+      <div className='flex flex-col lg:flex-row items-center justify-center md:gap-10 gap-4 mx-auto'>
         <img src={poweredLogo1} alt="powered Logo 1" />
         <img src={poweredLogo2} alt="powered Logo 2" />
         <img src={poweredLogo3} alt="powered Logo 3" />
@@ -28,7 +28,7 @@ const SponsorsSection = () => {
         </h2>
         <hr className="sec-title-hr" />
       </div>
-      <div className='flex items-center justify-center gap-10 mx-auto'>
+      <div className='flex flex-col md:flex-row items-center justify-center gap-10 mx-auto'>
         <img src={auditLogo1} alt="audit Logo 1" />
         <img src={auditLogo2} alt="audit Logo 2" />
       </div>

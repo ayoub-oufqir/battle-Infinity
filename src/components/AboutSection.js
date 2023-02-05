@@ -9,7 +9,7 @@ import telegramImgPng from "../assets/images/telegram-dark-icon.svg";
 
 const AboutSection = () => {
   return (
-    <section className="md:py-14 py-6 px-6 lg:px-20">
+    <section className="md:py-14 py-6 md:px-6 px-3 lg:px-20">
       <div className="about-sec-title-div mb-14">
         <h2 className="about-sec-title text-3xl md:text-4xl lg:text-5xl font-bold pb-4">
           ABOUT BATTLE INFINITY
@@ -18,7 +18,7 @@ const AboutSection = () => {
       </div>
       <div className="about-sec-content flex flex-wrap flex-col sm:flex-row items-center justify-center text-left">
         <div className="md:w-3/6 w-11/12 ">
-          <p className="text-lg">
+          <p className="text-lg text-center md:text-left">
             Battle infinity is a gaming platform where our ecosystem hosts
             multiple P2E battle games integrated with the Metaverse world called
             'The Battle Arena'. In the Battle Infinity world gamers are not only
@@ -28,7 +28,7 @@ const AboutSection = () => {
           </p>
           <div className="md:flex md:justify-center md:items-center">
             <p className="font-bold md:text-xl md:mr-4 md:mt-0 mt-8 text-lg  text-center">JOIN US ON:</p>
-            <ul className="flex md:justify-center md:items-center sm:mx-auto md:gap-5 gap-1 py-5 w-fit">
+            <ul className="flex md:justify-center md:items-center mx-auto md:gap-5 gap-1 py-5 w-fit">
               <li>
                 <a
                   href="https://t.me/battleinfinity"
@@ -98,9 +98,9 @@ const AboutSection = () => {
         </div>
         <div className="md:w-3/6 w-11/12 pt-9 md:pt-0">
           <iframe
-            // width={'75%'}
+            // width={'90%'}
             // height={315}
-            className="mx-auto aspect-video "
+            className="mx-auto aspect-video lg:w-7/12 w-11/12"
             title="Youtube video"
             src="https://www.youtube.com/embed/lenr7yfMHqs"
           ></iframe>

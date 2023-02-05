@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -42,6 +45,7 @@ code {
 
 .navbar{
   background-color: black;
+  /* justify-content: center !important; */
   /* color: white; */
 }
 .navbar-link{

@@ -7,7 +7,7 @@ const ProductsSection = () => {
         <h2 className="about-sec-title text-3xl md:text-4xl lg:text-5xl font-bold pb-6 ">PRODUCTS</h2>
         <hr className='sec-title-hr'/>
       </div>
-      <div className="about-sec-content flex flex-col sm:flex-row items-center justify-center text-left mt-10 md:mt-0">
+      <div className="about-sec-content flex flex-col flex-wrap sm:flex-row items-center justify-center text-left mt-10 md:mt-0">
         <div className="md:w-3/6 w-10/12">
         <p className="font-bold text-blue-500 md:pr-12 md:pl-14 lg:pl-28">$IBAT</p>
           <div className="flex items-center md:pl-14 lg:pl-28 md:pr-12 gap-4">

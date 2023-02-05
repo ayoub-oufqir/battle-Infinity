@@ -9,8 +9,8 @@ import rishita from '../assets/images/rishita.svg'
 import {AiFillLinkedin} from 'react-icons/ai'
 const TeamSection = () => {
     return ( 
-        <section className='bg-slate-800 text-white pb-14 px-40'>
-            <h2 className="font-bold text-4xl mb-14 pt-10">MEET THE TEAM</h2>
+        <section className='bg-slate-800 text-white pb-14 lg:px-40 p-10'>
+            <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl mb-14 pt-10">MEET THE TEAM</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-10">
                 <div className='flex flex-col'>
                     <img src={suresh} alt="suresh img" className='drop-shadow-team mb-4 w-5/6 mx-auto'/>

@@ -4,7 +4,7 @@ import { Navbar } from "flowbite-react";
 
 const NavBar = () => {
   return (
-    <Navbar fluid={true} rounded={true} className="navbar bg-black text-white text-xl font-bold py-6 sticky top-0 z-50">
+    <Navbar fluid={false} rounded={true}  className="navbar bg-black text-white text-xl font-bold py-6  top-0 z-50">
       <Navbar.Brand href="#">
         <img
           src={logo}
@@ -31,7 +31,8 @@ const NavBar = () => {
         <Navbar.Link href="/navbars" className="navbar-link font-bold text-lg">
           ROADMAP
         </Navbar.Link>
-        <div className="flex items-center">
+      </Navbar.Collapse>
+        <div className="md:flex lg:items-center hidden ">
           <button className="text-base font-bold bg-btnBlue-50 py-2 px-3 rounded-md border-blue-300 border-2 mr-4">
             Stake $IBAT
           </button>
@@ -39,7 +40,6 @@ const NavBar = () => {
             Buy $IBAT
           </button>
         </div>
-      </Navbar.Collapse>
     </Navbar>
   );
 };

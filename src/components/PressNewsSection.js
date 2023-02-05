@@ -18,14 +18,14 @@ const PressNewsSection = () => {
             alt="Top Five New Cryptocurrencies"
             className="w-3/6 p-4"
           />
-          <div>
-            <p className="text-xl font-bold">
+          <div className="py-2">
+            <p className="text-base md:text-xl font-bold">
               The Top Five New Cryptocurrencies for 2022: BudBlockz, Stepn &
               More
             </p>
             <a
               href="https://coinpedia.org/information/the-top-five-new-cryptocurrencies-for-2022-budblockz-stepn-more/"
-              className="text-xl font-bold text-blue-400"
+              className="text-base md:text-xl font-bold text-blue-400"
             >
               source: coinpedia.org
             </a>
@@ -37,14 +37,14 @@ const PressNewsSection = () => {
             alt="Binance Trading Values Are On The UpHeader"
             className="w-3/6 p-4"
           />
-          <div>
-            <p className="text-xl font-bold">
+          <div className="py-2">
+            <p className="text-base md:text-xl font-bold">
               The Top Five New Cryptocurrencies for 2022: BudBlockz, Stepn &
               More
             </p>
             <a
               href="https://coinpedia.org/information/the-top-five-new-cryptocurrencies-for-2022-budblockz-stepn-more/"
-              className="text-xl font-bold text-blue-400"
+              className="text-base md:text-xl font-bold text-blue-400"
             >
               source: coinpedia.org
             </a>
@@ -56,14 +56,14 @@ const PressNewsSection = () => {
             alt="Top Five New Cryptocurrencies"
             className="w-3/6 p-4"
           />
-          <div>
-            <p className="text-xl font-bold">
+          <div className="py-2">
+            <p className="text-base md:text-xl font-bold">
               The Top Five New Cryptocurrencies for 2022: BudBlockz, Stepn &
               More
             </p>
             <a
               href="https://coinpedia.org/information/the-top-five-new-cryptocurrencies-for-2022-budblockz-stepn-more/"
-              className="text-xl font-bold text-blue-400"
+              className="text-base md:text-xl font-bold text-blue-400"
             >
               source: coinpedia.org
             </a>
@@ -75,14 +75,14 @@ const PressNewsSection = () => {
             alt="Urvashi Rautela Irfan Pathan Celebrate IBAT New"
             className="w-3/6 p-4"
           />
-          <div>
-            <p className="text-xl font-bold">
+          <div className="py-2">
+            <p className="text-base md:text-xl font-bold">
               The Top Five New Cryptocurrencies for 2022: BudBlockz, Stepn &
               More
             </p>
             <a
               href="https://coinpedia.org/information/the-top-five-new-cryptocurrencies-for-2022-budblockz-stepn-more/"
-              className="text-xl font-bold text-blue-400"
+              className="text-base md:text-xl font-bold text-blue-400"
             >
               source: coinpedia.org
             </a>
@@ -94,14 +94,14 @@ const PressNewsSection = () => {
             alt="Cryptocurrency"
             className="w-3/6 p-4"
           />
-          <div>
-            <p className="text-xl font-bold">
+          <div className="py-2">
+            <p className="text-base md:text-xl font-bold">
               The Top Five New Cryptocurrencies for 2022: BudBlockz, Stepn &
               More
             </p>
             <a
               href="https://coinpedia.org/information/the-top-five-new-cryptocurrencies-for-2022-budblockz-stepn-more/"
-              className="text-xl font-bold text-blue-400"
+              className="text-base md:text-xl font-bold text-blue-400"
             >
               source: coinpedia.org
             </a>
@@ -113,14 +113,14 @@ const PressNewsSection = () => {
             alt="BIGains Momentum With Newly Launched Token"
             className="w-3/6 p-4"
           />
-          <div>
-            <p className="text-xl font-bold">
+          <div className="py-2">
+            <p className="text-base md:text-xl font-bold">
               The Top Five New Cryptocurrencies for 2022: BudBlockz, Stepn &
               More
             </p>
             <a
               href="https://coinpedia.org/information/the-top-five-new-cryptocurrencies-for-2022-budblockz-stepn-more/"
-              className="text-xl font-bold text-blue-400"
+              className="text-base md:text-xl font-bold text-blue-400"
             >
               source: coinpedia.org
             </a>
