@@ -7,7 +7,7 @@ import twitterImg from "../assets/images/twitter-dark.svg";
 
 const GetInTouchSection = () => {
   return (
-    <section className="pt-10 py-14 md:p-20">
+    <section className="pt-10 py-14 md:p-6">
       <div className="about-sec-title-div md:pb-14 pb-6">
         <h2 className="about-sec-title text-3xl md:text-4xl lg:text-5xl font-bold pb-3 ">GET IN TOUCH</h2>
         <hr className="sec-title-hr" />

@@ -6,7 +6,7 @@ import Cryptocurrency from "../assets/images/Cryptocurrency.svg";
 import BIGainsMomentumWithNewlyLaunchedToken from "../assets/images/BI-gains-momentum-with-newly-launched-token-1-300x169.jpg";
 const PressNewsSection = () => {
   return (
-    <section className="pt-10 py-14 md:p-28 p-6">
+    <section className="pt-0 md:p-10 p-6">
       <div className="about-sec-title-div md:mb-14 pb-10">
         <h2 className="about-sec-title text-3xl md:text-4xl lg:text-5xl font-bold pb-3 ">PRESS NEWS</h2>
         <hr className="sec-title-hr" />
